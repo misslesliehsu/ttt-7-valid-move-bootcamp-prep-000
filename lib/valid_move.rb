@@ -5,8 +5,8 @@ def valid_move?(board, index)
   end
   def position_taken?(board, index)
     if board[index] == "" || board[index]== " " || board[index] == nil
-      return = false
-    else return = true
+      return false
+    else return true
     end
   end
   if test1 == true && position_taken?(board, index) == false    # code your #valid_move? method here
