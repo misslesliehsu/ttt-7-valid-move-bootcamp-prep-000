@@ -4,7 +4,7 @@ def valid_move?(board, index)
   else test1 = false
   end
   def position_taken?(board, index)
-    if board[index] == ("" || " " || nil)
+    if board[index] == "" || board[index]== " " || board[index] == nil
       return = false
     else return = true
     end
